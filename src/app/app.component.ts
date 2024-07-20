@@ -3,8 +3,11 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'pipes';
+  fechaActual = new Date();       
+  precio = 1234.56;               
+  porcentaje = 0.1234;            
+  texto = 'Hola Mundo';           
 }
